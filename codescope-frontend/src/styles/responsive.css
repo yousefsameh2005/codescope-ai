@@ -1,0 +1,162 @@
+@media (max-width: 900px) {
+  .repository-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .welcome-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .workspace-main {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 650px) {
+  .topbar {
+    padding: 0 16px;
+  }
+
+  .header-button {
+    padding: 0 11px;
+  }
+
+  .home-page {
+    padding: 45px 16px;
+  }
+
+  .page-heading h1 {
+    font-size: 34px;
+  }
+
+  .welcome-content {
+    padding: 65px 20px 40px;
+  }
+
+  .welcome-content h1 {
+    font-size: 34px;
+  }
+
+  .welcome-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-tabs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sidebar {
+    width: 190px;
+    flex-basis: 190px;
+  }
+
+  .workspace-main {
+    padding: 18px 14px;
+  }
+
+  .workspace-hero {
+    margin-top: 50px;
+  }
+
+  .workspace-hero h2 {
+    font-size: 24px;
+  }
+
+  .message-bubble {
+    max-width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .chat-scroll {
+    padding: 22px 14px 24px;
+  }
+
+  .chat-composer {
+    width: min(100%, calc(100% - 28px));
+  }
+
+  .chat-messages {
+    gap: 24px;
+  }
+
+  .message-column {
+    max-width: calc(100% - 42px);
+  }
+
+  .user-message .message-column {
+    max-width: 82%;
+  }
+
+  .suggestion-cards {
+    width: min(100%, calc(100% - 28px));
+  }
+}
+
+@media (max-width: 650px) {
+  .workspace-main {
+    padding: 18px 12px;
+  }
+
+  .chat-scroll {
+    padding: 18px 7px 20px;
+  }
+
+  .chat-messages {
+    gap: 22px;
+  }
+
+  .assistant-avatar {
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
+    font-size: 13px;
+  }
+
+  .message-column {
+    max-width: calc(100% - 38px);
+  }
+
+  .user-message .message-column {
+    max-width: 88%;
+  }
+
+  .message-content {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .message-content h2 {
+    font-size: 19px;
+  }
+
+  .message-content h3 {
+    font-size: 16px;
+  }
+
+  .markdown-code-block pre {
+    font-size: 11px;
+  }
+
+  .suggestion-cards {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .chat-composer {
+    width: 100%;
+  }
+
+  .chat-composer-hint {
+    display: none;
+  }
+
+  .chat-input-wrap {
+    min-height: 56px;
+    border-radius: 12px;
+  }
+
+  .chat-scroll-button {
+    right: 15px;
+    bottom: 78px;
+  }
+}

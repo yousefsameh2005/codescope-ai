@@ -643,3 +643,12 @@ The current system establishes the foundation through:
 **Code Indexing + Hybrid Retrieval + RRF + Reranking + RAG + LLM Generation**
 
 ---
+## 👨‍💻 Author
+
+**Yousef Sameh**
+
+GitHub: [@yousefsameh2005](https://github.com/yousefsameh2005/codescope-ai)
+
+---
+
+⭐ If you find CodeScope AI interesting, feel free to explore the repository.
